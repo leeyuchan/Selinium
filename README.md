@@ -1,2 +1,2 @@
-Python, Selenium, gspread 
-웹 로그인 자동화, 테스트 결과 실시간 시트 기록
+Python, Selenium, gspread을 사용하여 웹 로그인 자동화, 테스트 결과 실시간 시트 기록
+해당 파일을 실행하려면 구글 클라우드에서 키를 발급받아 creds.json이라는 이름으로 저장해야 실행됩니다.
