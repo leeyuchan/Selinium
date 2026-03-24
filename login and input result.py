@@ -26,8 +26,8 @@ try:
     driver.find_element(By.XPATH, "//li[contains(text(), '로그인')]").click()
 
     # 로그인 정보 입력
-    driver.find_element(By.ID, 'user_id').send_keys('dbcksehdrp')
-    driver.find_element(By.ID, 'user_pw').send_keys('Qweasd598211@')
+    driver.find_element(By.ID, 'user_id').send_keys('ID')
+    driver.find_element(By.ID, 'user_pw').send_keys('PW')
 
     # 로그인 버튼 클릭
     driver.find_element(By.CLASS_NAME, 'btn1').click()
